@@ -14,28 +14,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2021年11月6日事项整理</title>
-    <url>/2021/Work/45001/</url>
-    <content><![CDATA[<h2 id="无人机赛课"><a class="markdownIt-Anchor" href="#无人机赛课"></a> 无人机赛课</h2>
-<p>今天完成了无人机赛课的准备和比赛，整体还是比较顺利。但是在刚开始配置电脑时，由于电脑和李兆基楼的投影不适配，导致花了比较长时间的配置。</p>
-<p>在之后的决赛和之后的过程中，在配置时，准备HDMI和VGA两种接口，并携带自身的显示器，以备不时之需。另外需要额外注意，当前电脑的DDR的问题，有其中一块DDR无法正常使用。</p>
-<h2 id="感存算eda项目"><a class="markdownIt-Anchor" href="#感存算eda项目"></a> 感存算EDA项目</h2>
-<p>整理了各个单位的分工，后续需要根据分工和各个单位沟通确认。</p>
-<h2 id="pim-nas文章"><a class="markdownIt-Anchor" href="#pim-nas文章"></a> PIM NAS文章</h2>
-<p>很幸运在老师和各位同学的帮忙下，文章投稿到DATE 2022成功。</p>
-<p>之后需要抓紧完成PIM NAS的相关工作的专利投稿工作。</p>
-<h2 id="mnsim期刊投稿"><a class="markdownIt-Anchor" href="#mnsim期刊投稿"></a> MNSIM期刊投稿</h2>
-<p>当前仍然存在ResNet的模型仿真精度基本等同于随机的问题，正在进行权重的重新训练。</p>
-]]></content>
-      <categories>
-        <category>Work</category>
-      </categories>
-      <tags>
-        <tag>Arrangement</tag>
-        <tag>Drone</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>A Preliminary Study of Deep Learning</title>
     <url>/2021/Study/7286/</url>
     <content><![CDATA[<h2 id="深度学习的loss选择"><a class="markdownIt-Anchor" href="#深度学习的loss选择"></a> 深度学习的Loss选择</h2>
@@ -75,7 +53,8 @@ z \in \mathcal{R}^{C}
 <li>用softplus代替max(x, 0)。 和1中的结果非常类似。<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mi>o</mi><mi>g</mi><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><msup><mi>e</mi><mi>x</mi></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">log(1+e^{x})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">x</span></span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></li>
 </ol>
 <p>根据上述两个即可非常自然地推导出softmax的函数形式</p>
-<p>Q：LogSumExp函数中的参数k在softmax已经softplus函数中起到了什么作用？如何起作用的？</p>
+<p>Q：LogSumExp函数中的参数k在softmax已经softplus函数中起到了什么作用？如何起作用的？<br />
+Q：为什么要采用max函数而不是直接取两者的差？</p>
 <h3 id="什么是gumble-softmax"><a class="markdownIt-Anchor" href="#什么是gumble-softmax"></a> 什么是Gumble softmax</h3>
 <p>以下内容均引自<span class="exturl" data-url="aHR0cHM6Ly9rZXh1ZS5mbS9hcmNoaXZlcy82NzA1">从重参数化到Gumble softmax<i class="fa fa-external-link-alt"></i></span></p>
 <p>重参数化，将含参分布映射为无参分布加映射的形式</p>
@@ -107,6 +86,28 @@ z \in \mathcal{R}^{C}
       </categories>
       <tags>
         <tag>ToDo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2021年11月6日事项整理</title>
+    <url>/2021/Work/45001/</url>
+    <content><![CDATA[<h2 id="无人机赛课"><a class="markdownIt-Anchor" href="#无人机赛课"></a> 无人机赛课</h2>
+<p>今天完成了无人机赛课的准备和比赛，整体还是比较顺利。但是在刚开始配置电脑时，由于电脑和李兆基楼的投影不适配，导致花了比较长时间的配置。</p>
+<p>在之后的决赛和之后的过程中，在配置时，准备HDMI和VGA两种接口，并携带自身的显示器，以备不时之需。另外需要额外注意，当前电脑的DDR的问题，有其中一块DDR无法正常使用。</p>
+<h2 id="感存算eda项目"><a class="markdownIt-Anchor" href="#感存算eda项目"></a> 感存算EDA项目</h2>
+<p>整理了各个单位的分工，后续需要根据分工和各个单位沟通确认。</p>
+<h2 id="pim-nas文章"><a class="markdownIt-Anchor" href="#pim-nas文章"></a> PIM NAS文章</h2>
+<p>很幸运在老师和各位同学的帮忙下，文章投稿到DATE 2022成功。</p>
+<p>之后需要抓紧完成PIM NAS的相关工作的专利投稿工作。</p>
+<h2 id="mnsim期刊投稿"><a class="markdownIt-Anchor" href="#mnsim期刊投稿"></a> MNSIM期刊投稿</h2>
+<p>当前仍然存在ResNet的模型仿真精度基本等同于随机的问题，正在进行权重的重新训练。</p>
+]]></content>
+      <categories>
+        <category>Work</category>
+      </categories>
+      <tags>
+        <tag>Arrangement</tag>
+        <tag>Drone</tag>
       </tags>
   </entry>
 </search>

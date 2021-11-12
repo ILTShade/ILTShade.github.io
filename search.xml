@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2021年11月6日事项整理</title>
-    <url>/2021/Work/45001/</url>
-    <content><![CDATA[<h2 id="无人机赛课"><a class="markdownIt-Anchor" href="#无人机赛课"></a> 无人机赛课</h2>
-<p>今天完成了无人机赛课的准备和比赛，整体还是比较顺利。但是在刚开始配置电脑时，由于电脑和李兆基楼的投影不适配，导致花了比较长时间的配置。</p>
-<p>在之后的决赛和之后的过程中，在配置时，准备HDMI和VGA两种接口，并携带自身的显示器，以备不时之需。另外需要额外注意，当前电脑的DDR的问题，有其中一块DDR无法正常使用。</p>
-<h2 id="pim-nas文章"><a class="markdownIt-Anchor" href="#pim-nas文章"></a> PIM NAS文章</h2>
-<p>很幸运在老师和各位同学的帮忙下，文章投稿到DATE 2022成功。</p>
-<p>之后需要抓紧完成PIM NAS的相关工作的专利投稿工作。</p>
-<h2 id="mnsim期刊投稿"><a class="markdownIt-Anchor" href="#mnsim期刊投稿"></a> MNSIM期刊投稿</h2>
-<p>当前仍然存在ResNet的模型仿真精度基本等同于随机的问题，正在进行权重的重新训练。</p>
+    <title>MyDNS</title>
+    <url>/2021/Work/55808/</url>
+    <content><![CDATA[<h2 id="dns"><a class="markdownIt-Anchor" href="#dns"></a> DNS</h2>
+<ul>
+<li><span class="exturl" data-url="aHR0cDovLzEwMS42LjY0LjIwMDo4MDgw">my_overleaf<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
 ]]></content>
       <categories>
         <category>Work</category>
       </categories>
       <tags>
-        <tag>Arrangement</tag>
-        <tag>Drone</tag>
+        <tag>DNS</tag>
       </tags>
   </entry>
   <entry>
@@ -48,42 +43,31 @@
       </tags>
   </entry>
   <entry>
-    <title>Now</title>
-    <url>/2021/Work/49421/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Work</category>
-      </categories>
-      <tags>
-        <tag>Now</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>To Do List</title>
-    <url>/2021/Work/31174/</url>
-    <content><![CDATA[<h2 id="pim-nas专利"><a class="markdownIt-Anchor" href="#pim-nas专利"></a> PIM NAS专利</h2>
-<h2 id="mnsim期刊投稿"><a class="markdownIt-Anchor" href="#mnsim期刊投稿"></a> MNSIM期刊投稿</h2>
-]]></content>
-      <categories>
-        <category>Work</category>
-      </categories>
-      <tags>
-        <tag>ToDo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MyDNS</title>
-    <url>/2021/Work/55808/</url>
-    <content><![CDATA[<h2 id="dns"><a class="markdownIt-Anchor" href="#dns"></a> DNS</h2>
+    <title>EDA Tool List</title>
+    <url>/2021/Work/65326/</url>
+    <content><![CDATA[<h2 id="eda工具链"><a class="markdownIt-Anchor" href="#eda工具链"></a> EDA工具链</h2>
 <ul>
-<li><span class="exturl" data-url="aHR0cDovLzEwMS42LjY0LjIwMDo4MDgw">my_overleaf<i class="fa fa-external-link-alt"></i></span></li>
+<li>EDA工具链的发展史<span class="exturl" data-url="aHR0cHM6Ly93d3cuc29odS5jb20vYS8zMjA0NTM0MTVfMTMyNTY3">介绍<i class="fa fa-external-link-alt"></i></span></li>
+<li>EDA工具链包含哪些部分</li>
 </ul>
+<p>Q：EDA工具链的输入是什么，输出是什么？整体的流程图应该是什么样子？</p>
+<h3 id="硬件描述语言"><a class="markdownIt-Anchor" href="#硬件描述语言"></a> 硬件描述语言</h3>
+<ul>
+<li>以Verilog HDL和VHDL为代表的硬件描述语言<span class="exturl" data-url="aHR0cDovL3d3dy50dXAudHNpbmdodWEuZWR1LmNuL3VwbG9hZC9ib29rcy95ei8wODA0MjktMDEucGRm">Link<i class="fa fa-external-link-alt"></i></span></li>
+<li>以SystemC和SystemVerilog为代表的<strong>硬件描述与验证语言</strong></li>
+<li>以C/C<ins>作为输入的HLS(输入是C/C</ins>，输出是硬件描述语言)，应该在上一层次<span class="exturl" data-url="aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vc2VhLXdpbmQvcC80MDI0NjY1Lmh0bWw=">Link<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<p>ESL：系统级设计工具</p>
+<h3 id="逻辑仿真工具"><a class="markdownIt-Anchor" href="#逻辑仿真工具"></a> 逻辑仿真工具</h3>
+<p><span class="exturl" data-url="aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTklODAlQkIlRTglQkUlOTElRTQlQkIlQkYlRTclOUMlOUYvMjI4MzU1MDQ=">逻辑仿真工具的百度百科<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="逻辑综合工具"><a class="markdownIt-Anchor" href="#逻辑综合工具"></a> 逻辑综合工具</h3>
+<p><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIxODQyMDk3L2FydGljbGUvZGV0YWlscy8xMTE0NjM2OTg=">逻辑综合工具介绍<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
       <categories>
         <category>Work</category>
       </categories>
       <tags>
-        <tag>DNS</tag>
+        <tag>EDA</tag>
       </tags>
   </entry>
   <entry>
@@ -137,6 +121,50 @@ Q：为什么要采用max函数而不是直接取两者的差？</p>
       </categories>
       <tags>
         <tag>Deep Learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2021年11月6日事项整理</title>
+    <url>/2021/Work/45001/</url>
+    <content><![CDATA[<h2 id="无人机赛课"><a class="markdownIt-Anchor" href="#无人机赛课"></a> 无人机赛课</h2>
+<p>今天完成了无人机赛课的准备和比赛，整体还是比较顺利。但是在刚开始配置电脑时，由于电脑和李兆基楼的投影不适配，导致花了比较长时间的配置。</p>
+<p>在之后的决赛和之后的过程中，在配置时，准备HDMI和VGA两种接口，并携带自身的显示器，以备不时之需。另外需要额外注意，当前电脑的DDR的问题，有其中一块DDR无法正常使用。</p>
+<h2 id="pim-nas文章"><a class="markdownIt-Anchor" href="#pim-nas文章"></a> PIM NAS文章</h2>
+<p>很幸运在老师和各位同学的帮忙下，文章投稿到DATE 2022成功。</p>
+<p>之后需要抓紧完成PIM NAS的相关工作的专利投稿工作。</p>
+<h2 id="mnsim期刊投稿"><a class="markdownIt-Anchor" href="#mnsim期刊投稿"></a> MNSIM期刊投稿</h2>
+<p>当前仍然存在ResNet的模型仿真精度基本等同于随机的问题，正在进行权重的重新训练。</p>
+]]></content>
+      <categories>
+        <category>Work</category>
+      </categories>
+      <tags>
+        <tag>Arrangement</tag>
+        <tag>Drone</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Now</title>
+    <url>/2021/Work/49421/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Work</category>
+      </categories>
+      <tags>
+        <tag>Now</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>To Do List</title>
+    <url>/2021/Work/31174/</url>
+    <content><![CDATA[<h2 id="pim-nas专利"><a class="markdownIt-Anchor" href="#pim-nas专利"></a> PIM NAS专利</h2>
+<h2 id="mnsim期刊投稿"><a class="markdownIt-Anchor" href="#mnsim期刊投稿"></a> MNSIM期刊投稿</h2>
+]]></content>
+      <categories>
+        <category>Work</category>
+      </categories>
+      <tags>
+        <tag>ToDo</tag>
       </tags>
   </entry>
 </search>

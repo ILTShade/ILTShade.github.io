@@ -46,6 +46,34 @@
       </tags>
   </entry>
   <entry>
+    <title>EDA Tool List</title>
+    <url>/2021/Work/65326/</url>
+    <content><![CDATA[<h2 id="eda工具链"><a class="markdownIt-Anchor" href="#eda工具链"></a> EDA工具链</h2>
+<ul>
+<li>EDA工具链的发展史<span class="exturl" data-url="aHR0cHM6Ly93d3cuc29odS5jb20vYS8zMjA0NTM0MTVfMTMyNTY3">介绍<i class="fa fa-external-link-alt"></i></span></li>
+<li>EDA工具链包含哪些部分</li>
+</ul>
+<p>Q：EDA工具链的输入是什么，输出是什么？整体的流程图应该是什么样子？</p>
+<h3 id="硬件描述语言"><a class="markdownIt-Anchor" href="#硬件描述语言"></a> 硬件描述语言</h3>
+<ul>
+<li>以Verilog HDL和VHDL为代表的硬件描述语言<span class="exturl" data-url="aHR0cDovL3d3dy50dXAudHNpbmdodWEuZWR1LmNuL3VwbG9hZC9ib29rcy95ei8wODA0MjktMDEucGRm">Link<i class="fa fa-external-link-alt"></i></span></li>
+<li>以SystemC和SystemVerilog为代表的<strong>硬件描述与验证语言</strong></li>
+<li>以C/C<ins>作为输入的HLS(输入是C/C</ins>，输出是硬件描述语言)，应该在上一层次<span class="exturl" data-url="aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vc2VhLXdpbmQvcC80MDI0NjY1Lmh0bWw=">Link<i class="fa fa-external-link-alt"></i></span></li>
+</ul>
+<p>ESL：系统级设计工具</p>
+<h3 id="逻辑仿真工具"><a class="markdownIt-Anchor" href="#逻辑仿真工具"></a> 逻辑仿真工具</h3>
+<p><span class="exturl" data-url="aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTklODAlQkIlRTglQkUlOTElRTQlQkIlQkYlRTclOUMlOUYvMjI4MzU1MDQ=">逻辑仿真工具的百度百科<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="逻辑综合工具"><a class="markdownIt-Anchor" href="#逻辑综合工具"></a> 逻辑综合工具</h3>
+<p><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIxODQyMDk3L2FydGljbGUvZGV0YWlscy8xMTE0NjM2OTg=">逻辑综合工具介绍<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>Work</category>
+      </categories>
+      <tags>
+        <tag>EDA</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>MyDNS</title>
     <url>/2021/Work/55808/</url>
     <content><![CDATA[<h2 id="dns"><a class="markdownIt-Anchor" href="#dns"></a> DNS</h2>
@@ -85,34 +113,6 @@
       </categories>
       <tags>
         <tag>Dog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>EDA Tool List</title>
-    <url>/2021/Work/65326/</url>
-    <content><![CDATA[<h2 id="eda工具链"><a class="markdownIt-Anchor" href="#eda工具链"></a> EDA工具链</h2>
-<ul>
-<li>EDA工具链的发展史<span class="exturl" data-url="aHR0cHM6Ly93d3cuc29odS5jb20vYS8zMjA0NTM0MTVfMTMyNTY3">介绍<i class="fa fa-external-link-alt"></i></span></li>
-<li>EDA工具链包含哪些部分</li>
-</ul>
-<p>Q：EDA工具链的输入是什么，输出是什么？整体的流程图应该是什么样子？</p>
-<h3 id="硬件描述语言"><a class="markdownIt-Anchor" href="#硬件描述语言"></a> 硬件描述语言</h3>
-<ul>
-<li>以Verilog HDL和VHDL为代表的硬件描述语言<span class="exturl" data-url="aHR0cDovL3d3dy50dXAudHNpbmdodWEuZWR1LmNuL3VwbG9hZC9ib29rcy95ei8wODA0MjktMDEucGRm">Link<i class="fa fa-external-link-alt"></i></span></li>
-<li>以SystemC和SystemVerilog为代表的<strong>硬件描述与验证语言</strong></li>
-<li>以C/C<ins>作为输入的HLS(输入是C/C</ins>，输出是硬件描述语言)，应该在上一层次<span class="exturl" data-url="aHR0cHM6Ly93d3cuY25ibG9ncy5jb20vc2VhLXdpbmQvcC80MDI0NjY1Lmh0bWw=">Link<i class="fa fa-external-link-alt"></i></span></li>
-</ul>
-<p>ESL：系统级设计工具</p>
-<h3 id="逻辑仿真工具"><a class="markdownIt-Anchor" href="#逻辑仿真工具"></a> 逻辑仿真工具</h3>
-<p><span class="exturl" data-url="aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTklODAlQkIlRTglQkUlOTElRTQlQkIlQkYlRTclOUMlOUYvMjI4MzU1MDQ=">逻辑仿真工具的百度百科<i class="fa fa-external-link-alt"></i></span></p>
-<h3 id="逻辑综合工具"><a class="markdownIt-Anchor" href="#逻辑综合工具"></a> 逻辑综合工具</h3>
-<p><span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzIxODQyMDk3L2FydGljbGUvZGV0YWlscy8xMTE0NjM2OTg=">逻辑综合工具介绍<i class="fa fa-external-link-alt"></i></span></p>
-]]></content>
-      <categories>
-        <category>Work</category>
-      </categories>
-      <tags>
-        <tag>EDA</tag>
       </tags>
   </entry>
   <entry>

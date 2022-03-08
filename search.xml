@@ -46,6 +46,24 @@
       </tags>
   </entry>
   <entry>
+    <title>playwright使用</title>
+    <url>/2022/Work/5233/</url>
+    <content><![CDATA[<h2 id="playwright使用"><a class="markdownIt-Anchor" href="#playwright使用"></a> playwright使用</h2>
+<p>playwright使用起来非常方面，在使用过程中有以下几点体会：</p>
+<ol>
+<li>使用await/async的效率会更高一些，便于高并发</li>
+<li>在使用过程中建议和safari的浏览器开发者模式共同使用，在使用过程中可以在safari的开发者模式中直接点击某个元素，然后选择拷贝，就可以直接获得对应的选择器路径，非常方便</li>
+<li>常用的利用page.fill, page.click. 可以将page.screenshot作为一种简单的调试手段</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Work</category>
+      </categories>
+      <tags>
+        <tag>Tools</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>EDA Tool List</title>
     <url>/2021/Work/65326/</url>
     <content><![CDATA[<h2 id="eda工具链"><a class="markdownIt-Anchor" href="#eda工具链"></a> EDA工具链</h2>

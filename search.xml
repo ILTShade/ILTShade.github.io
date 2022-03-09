@@ -54,6 +54,7 @@
 <li>使用await/async的效率会更高一些，便于高并发</li>
 <li>在使用过程中建议和safari的浏览器开发者模式共同使用，在使用过程中可以在safari的开发者模式中直接点击某个元素，然后选择拷贝，就可以直接获得对应的选择器路径，非常方便</li>
 <li>常用的利用page.fill, page.click. 可以将page.screenshot作为一种简单的调试手段</li>
+<li>部分页面点击后需要刷新，这是采用wait_for_selector可以作为等待页面刷新的手段，此时可以增加try，except来增加判断</li>
 </ol>
 ]]></content>
       <categories>

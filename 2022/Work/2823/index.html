@@ -20,19 +20,20 @@
     var CONFIG = {"hostname":"hanbosun.info","root":"/","scheme":"Gemini","version":"7.8.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="Hello, it’s me!">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hello World!">
-<meta property="og:url" content="https://hanbosun.info/about/index.html">
+  <meta name="description" content="实验室新服务器的配置流程">
+<meta property="og:type" content="article">
+<meta property="og:title" content="实验室服务器配置流程">
+<meta property="og:url" content="https://hanbosun.info/2022/Work/2823/index.html">
 <meta property="og:site_name" content="Blog of Hanbo Sun">
-<meta property="og:description" content="Hello, it’s me!">
+<meta property="og:description" content="实验室新服务器的配置流程">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-11-06T11:13:11.000Z">
-<meta property="article:modified_time" content="2022-03-09T03:15:29.042Z">
+<meta property="article:published_time" content="2022-03-17T02:54:53.000Z">
+<meta property="article:modified_time" content="2022-03-17T04:04:18.018Z">
 <meta property="article:author" content="Hanbo Sun">
+<meta property="article:tag" content="Tools">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://hanbosun.info/about/">
+<link rel="canonical" href="https://hanbosun.info/2022/Work/2823/">
 
 
 <script id="page-configurations">
@@ -40,13 +41,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Hello World! | Blog of Hanbo Sun
-</title>
+  <title>实验室服务器配置流程 | Blog of Hanbo Sun</title>
   
 
 
@@ -189,45 +189,144 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="en">
-      <header class="post-header">
-
-<h1 class="post-title" itemprop="name headline">Hello World!
-</h1>
-
-<div class="post-meta">
   
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://hanbosun.info/2022/Work/2823/">
 
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Hanbo Sun">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of Hanbo Sun">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          实验室服务器配置流程
+        </h1>
+
+        <div class="post-meta">
+          
+              <i class="fas fa-thumbtack"></i>
+              <font color=7D26CD>TOP</font>
+              <span class="post-meta-divider">|</span>
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2022-03-17 10:54:53 / Modified: 12:04:18" itemprop="dateCreated datePublished" datetime="2022-03-17T10:54:53+08:00">2022-03-17</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Work/" itemprop="url" rel="index"><span itemprop="name">Work</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>650</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>1 mins.</span>
+            </span>
+            <div class="post-description">实验室新服务器的配置流程</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>实验室更新了新的服务器系统，对个人而言需要重新配置，在这里，对之前配置服务器的流程进行整理和记录，为之后可能的配置作为参考</p>
+<h2 id="免密登录"><a class="markdownIt-Anchor" href="#免密登录"></a> 免密登录</h2>
+<ol>
+<li>在本地机器上生成id_rsa.pub，并置于跳板机和目标服务器的.ssh/authorized_keys文件中</li>
+<li>在本地机器上设置.ssh/config文件，可以便捷地登录</li>
+</ol>
+<h2 id="nfs网络共享硬盘配置"><a class="markdownIt-Anchor" href="#nfs网络共享硬盘配置"></a> NFS网络共享硬盘配置</h2>
+<p>由于服务器采用了NFS文件系统，所以每个container的空间很小，建议在/home/nfs_data下建立自己的文件夹，并软链接到自己的根目录下</p>
+<p><code>ln -s /home/nfs_data/username ~/nfs</code><br />
+以上命令建议在需要的时候手动执行，禁止自动执行</p>
+<h2 id="配置cuda"><a class="markdownIt-Anchor" href="#配置cuda"></a> 配置cuda</h2>
+<p>在.bashrc文件中增加<code>/usr/local/nvidia/bin</code>到路径中，并且配置cuda_home名称。之后可以通过nvcc -V查看安装的版本</p>
+<p>通过调整cuda_home名称一般可以改变cuda的驱动版本，但是一般需要在最开始配置服务器时确定，之后不要改动。<br />
+可以参照之前版本的.bashrc调整路径实现</p>
+<h2 id="配置vim和tmux"><a class="markdownIt-Anchor" href="#配置vim和tmux"></a> 配置vim和tmux</h2>
+<p>拷贝之前版本的.vimrc和.tmux.conf，并根据内容做适当修改即可</p>
+<h2 id="安装anaconda和配置虚拟环境"><a class="markdownIt-Anchor" href="#安装anaconda和配置虚拟环境"></a> 安装anaconda和配置虚拟环境</h2>
+<p><span class="exturl" data-url="aHR0cDovL3huLS1hbmFjb25kYS1udzdtNzEyZndyZ3F0bWJ0OWQuc2g=">找到对应的anaconda.sh<i class="fa fa-external-link-alt"></i></span>，并安装到自己的目录下，注意一定要放在nfs路径下，确保空间足够</p>
+<p>利用conda新建虚拟python环境，并按照pytorch官网安装pytorch，并通过代码测试是否可以正常使用</p>
+<h2 id="拷贝自己的工作环境"><a class="markdownIt-Anchor" href="#拷贝自己的工作环境"></a> 拷贝自己的工作环境</h2>
+<p>将只读文本拷贝并进行相关操作</p>
+
+    </div>
+
+    
+    
+    
+
+    <div>
+      
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">---End<i class="fa fa-paw"></i>Thanks for your reading---</div>
+    
 </div>
 
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <p>Hello, it’s me!</p>
-<!-- <div class="pdfobject-container" data-target="https://raw.githubusercontent.com/ILTShade/blob_images/master/Hanbo_Sun_s_CV_220118.pdf" data-height="500px"></div> -->
-
-      </div>
-      
-      
       
     </div>
-    
 
+      <footer class="post-footer">
+          
+          <div class="post-tags">
+              <a href="/tags/Tools/" rel="tag"><i class="fa fa-tag"></i> Tools</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/Work/5233/" rel="prev" title="playwright使用">
+      <i class="fa fa-chevron-left"></i> playwright使用
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
     
-    
-    
+  </article>
+  
+  
+  
+
 
 
           </div>
@@ -278,6 +377,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95"><span class="nav-number">1.</span> <span class="nav-text"> 免密登录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nfs%E7%BD%91%E7%BB%9C%E5%85%B1%E4%BA%AB%E7%A1%AC%E7%9B%98%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text"> NFS网络共享硬盘配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEcuda"><span class="nav-number">3.</span> <span class="nav-text"> 配置cuda</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEvim%E5%92%8Ctmux"><span class="nav-number">4.</span> <span class="nav-text"> 配置vim和tmux</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85anaconda%E5%92%8C%E9%85%8D%E7%BD%AE%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83"><span class="nav-number">5.</span> <span class="nav-text"> 安装anaconda和配置虚拟环境</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8B%B7%E8%B4%9D%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B7%A5%E4%BD%9C%E7%8E%AF%E5%A2%83"><span class="nav-number">6.</span> <span class="nav-text"> 拷贝自己的工作环境</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

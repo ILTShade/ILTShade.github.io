@@ -46,6 +46,38 @@
       </tags>
   </entry>
   <entry>
+    <title>实验室服务器配置流程</title>
+    <url>/2022/Work/2823/</url>
+    <content><![CDATA[<p>实验室更新了新的服务器系统，对个人而言需要重新配置，在这里，对之前配置服务器的流程进行整理和记录，为之后可能的配置作为参考</p>
+<h2 id="免密登录"><a class="markdownIt-Anchor" href="#免密登录"></a> 免密登录</h2>
+<ol>
+<li>在本地机器上生成id_rsa.pub，并置于跳板机和目标服务器的.ssh/authorized_keys文件中</li>
+<li>在本地机器上设置.ssh/config文件，可以便捷地登录</li>
+</ol>
+<h2 id="nfs网络共享硬盘配置"><a class="markdownIt-Anchor" href="#nfs网络共享硬盘配置"></a> NFS网络共享硬盘配置</h2>
+<p>由于服务器采用了NFS文件系统，所以每个container的空间很小，建议在/home/nfs_data下建立自己的文件夹，并软链接到自己的根目录下</p>
+<p><code>ln -s /home/nfs_data/username ~/nfs</code><br />
+以上命令建议在需要的时候手动执行，禁止自动执行</p>
+<h2 id="配置cuda"><a class="markdownIt-Anchor" href="#配置cuda"></a> 配置cuda</h2>
+<p>在.bashrc文件中增加<code>/usr/local/nvidia/bin</code>到路径中，并且配置cuda_home名称。之后可以通过nvcc -V查看安装的版本</p>
+<p>通过调整cuda_home名称一般可以改变cuda的驱动版本，但是一般需要在最开始配置服务器时确定，之后不要改动。<br />
+可以参照之前版本的.bashrc调整路径实现</p>
+<h2 id="配置vim和tmux"><a class="markdownIt-Anchor" href="#配置vim和tmux"></a> 配置vim和tmux</h2>
+<p>拷贝之前版本的.vimrc和.tmux.conf，并根据内容做适当修改即可</p>
+<h2 id="安装anaconda和配置虚拟环境"><a class="markdownIt-Anchor" href="#安装anaconda和配置虚拟环境"></a> 安装anaconda和配置虚拟环境</h2>
+<p><span class="exturl" data-url="aHR0cDovL3huLS1hbmFjb25kYS1udzdtNzEyZndyZ3F0bWJ0OWQuc2g=">找到对应的anaconda.sh<i class="fa fa-external-link-alt"></i></span>，并安装到自己的目录下，注意一定要放在nfs路径下，确保空间足够</p>
+<p>利用conda新建虚拟python环境，并按照pytorch官网安装pytorch，并通过代码测试是否可以正常使用</p>
+<h2 id="拷贝自己的工作环境"><a class="markdownIt-Anchor" href="#拷贝自己的工作环境"></a> 拷贝自己的工作环境</h2>
+<p>将只读文本拷贝并进行相关操作</p>
+]]></content>
+      <categories>
+        <category>Work</category>
+      </categories>
+      <tags>
+        <tag>Tools</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>playwright使用</title>
     <url>/2022/Work/5233/</url>
     <content><![CDATA[<h2 id="playwright使用"><a class="markdownIt-Anchor" href="#playwright使用"></a> playwright使用</h2>
@@ -55,6 +87,7 @@
 <li>在使用过程中建议和safari的浏览器开发者模式共同使用，在使用过程中可以在safari的开发者模式中直接点击某个元素，然后选择拷贝，就可以直接获得对应的选择器路径，非常方便</li>
 <li>常用的利用page.fill, page.click. 可以将page.screenshot作为一种简单的调试手段</li>
 <li>部分页面点击后需要刷新，这是采用wait_for_selector可以作为等待页面刷新的手段，此时可以增加try，except来增加判断</li>
+<li>对于一些需要等待js加载的，建议使用有头浏览器，虽然慢了一些，影响工作，但是效果更好，可以直接query_selector./</li>
 </ol>
 ]]></content>
       <categories>
